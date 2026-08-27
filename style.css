@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* this is marquee styling */
+
+marquee {
+    padding-top: 4px;
+    font-size: 16px;
+}
+
+marquee>a {
+    text-decoration: none;
+    color: red;
+}
+
+marquee>a>button {
+    background-color: red;
+    color: white;
+    padding: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+marquee>a>button:hover {
+    background-color: white;
+    color: red;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+}
+
+/* this is navbar button styling */
+.navbar {
+    text-decoration: none;
+    
+}
+
+
+#navigation-bar {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+/* this is mid navbar button styling */
+.mid-button {
+    padding-left: 60px;
+}
+
+.button1 {
+    padding-left: 360px;
+}
+
+/* this is whole navbar styling */
+#navigation-bar {
+    text-align: center;
+    margin-bottom: 2px;
+    background-color: antiquewhite;
+}
+
+/* this is side button of navbar styling */
+.right-button1 {
+    margin-left: 230px;
+}
+
+.right-button2 {
+    margin-left: 20px;
+}
+
+.right-button:hover {
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
+    font-weight: 2px;
+    background-color:aliceblue;
+}
+
+.right-button {
+    padding: 2px;
+    border: none;
+    background-color: transparent;
+}
+
+section>iframe {
+    margin-left: 95px;
+    height: 300px;
+    width:1150px;
+     /* width="1300px" height="300px" */
+}
